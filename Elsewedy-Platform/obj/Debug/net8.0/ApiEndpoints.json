@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Elsewedy_Platform2.Controllers.Courses_Ac_Controller",
+    "Method": "Get",
+    "RelativePath": "api/Courses_Ac_",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform2.Controllers.TeacherController",
+    "Method": "Login",
+    "RelativePath": "api/Teacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Elsewedy_Platform2.Models.DTO.Login_DTO_Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
